@@ -1,6 +1,9 @@
 # How to run the code?
 In the `sage` environment and in the correct path, run the follwoing command:
-`run main.py`
+
+```py
+run main.py
+```
 
 # Table of Content
 - [General notes on genus 2 hyperelliptic curves](#general-notes-on-genus-2-hyperelliptic-curves)
