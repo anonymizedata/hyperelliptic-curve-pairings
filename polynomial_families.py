@@ -1,11 +1,11 @@
 from sage.rings.rational_field import QQ
 from sage.rings.integer_ring import ZZ
 
-
-def polynomial_family_k16(u):
+# Kawazoe-Takahashi polynomial family of pairing-friendly Jacobians with embedding degree 16
+def polynomial_family_KT16(u):
     """
-    :param u: seed
-    :return: r, p, X, Y
+    :param u: seed to evaluate polynomial family
+    :return: r, p, X, Y: primes r, p and integers X, Y such that p = X^2 + 2Y^2
     """
     R = QQ['x']
     (x,) = R._first_ngens(1)
@@ -22,11 +22,11 @@ def polynomial_family_k16(u):
 
     return r, p, X, Y
 
-
-def polynomial_family_new_k16(u):
+# New polynomial family of pairing-friendly Jacobians with embedding degree 16
+def polynomial_family_New16(u):
     """
-    :param u: seed
-    :return: r, p, X, Y
+    :param u: seed to evaluate polynomial family
+    :return: r, p, X, Y: primes r, p and integers X, Y such that p = X^2 + 2Y^2
     """
     R = QQ['x']
     (x,) = R._first_ngens(1)
@@ -43,11 +43,11 @@ def polynomial_family_new_k16(u):
 
     return r, p, X, Y
 
-
-def polynomial_family_k24(u):
+# New polynomial family of pairing-friendly Jacobians with embedding degree 24
+def polynomial_family_New24(u):
     """
-    :param u: seed
-    :return: r, p, X, Y
+    :param u: seed to evaluate polynomial family
+    :return: r, p, X, Y: primes r, p and integers X, Y such that p = X^2 + 2Y^2
     """
 
     R = QQ['x']
